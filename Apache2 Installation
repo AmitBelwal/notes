@@ -1,0 +1,29 @@
+1. Create an EC2 instance/VPS
+
+2. Apache2Installation Command for ubuntu
+	sudo apt update
+	sudo apt install apache2 -y
+
+3. Start and Enable Apache2
+	sudo systemctl start apache2
+	sudo systemctl enable apache2
+
+4. verification
+	sudo systemctl status apache2
+             or
+	curl localhost on your  machine
+			 or
+	type your instance ip in browser and check default HTML page
+
+Note:
+	if enable to hit browser then check security config outbound rule for http traffic
+
+5. Restart Aache2
+	sudo systemctl estart apache2
+
+6. Change listening port
+	sudo nano/etc/apache2/ports.conf and change Listen 80 to the port that you want
+	
+
+
+
