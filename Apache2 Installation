@@ -19,7 +19,7 @@ Note:
 	if enable to hit browser then check security config outbound rule for http traffic
 
 5. Restart Aache2
-	sudo systemctl estart apache2
+	sudo systemctl restart apache2
 
 6. Change listening port
 	sudo nano/etc/apache2/ports.conf and change Listen 80 to the port that you want
